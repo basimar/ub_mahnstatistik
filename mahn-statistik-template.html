@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>IDS Basel/Bern: Mahnstatistik %%SUBLIB%%</title>
+<meta name="GENERATOR" content="mahn-statistik-format.pl">
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="0">
+<style type="text/css">
+body,div,p,td,ul,ol
+{
+  font-family:Verdana,Arial,Helvetica,"sans serif";
+}
+body
+{
+  background-color:#E0E0E0;
+}
+.head1
+{
+  background-color:#FFDD66;
+}
+.head2
+{
+  background-color:#FFF09E;
+  font-size:18pt;
+}
+.title
+{
+  font-size:16pt;
+}
+p,td,div,ul
+{
+  font-size:10pt;
+}
+td
+{
+  background-color:white;
+}
+.tabh1
+{
+  font-weight:bold;
+}
+a
+{
+  color:black;
+}
+</style>
+</head>
+<body>
+
+<table width=100% border=0 cellpadding=0 cellspacing=0>
+<tr><td class=head1> &nbsp; <a href="mahn-statistik.html">IDS Basel/Bern: Mahnstatistik</a></td></tr>
+<tr><td class=head2> &nbsp;Mahnstatistik %%SUBLIB%%</td></tr>
+</table>
+
+<a name="top"></a>
+
+<p>
+Statistik der ausgedruckten Mahnungen pro Bibliothek,
+Tag, Monat, Mahnstufe, Tagestotal, Split EMail, Split Print.
+<p>
+<a href="#Aktuell">Aktuell</a>
+<p>
+
+%%START_TABLE%%
+<table border=1 cellpadding=3 cellspacing=0>
+<tr>
+ <td class=tabh1 colspan=8>%%MONAT%%</td>
+</tr>
+<tr>
+ <td class=tabh2>Datum</td>
+ <td class=tabh2>Mahnstufe 1</td>
+ <td class=tabh2>Mahnstufe 2</td>
+ <td class=tabh2>Mahnstufe 3</td>
+ <td class=tabh2>Mahnstufe 4</td>
+ <td class=tabh2>TagesTotal</td>
+ <td class=tabh2>Split EMail</td>
+ <td class=tabh2>Split Print</td>
+</tr>
+%%START_ROW%%
+<tr>
+ <td>%%DATUM%%</td>
+ <td align=right>%%M1%%</td>
+ <td align=right>%%M2%%</td>
+ <td align=right>%%M3%%</td>
+ <td align=right>%%M4%%</td>
+ <td align=right>%%M5%%</td>
+ <td align=right>%%M6%%</td>
+ <td align=right>%%M7%%</td>
+</tr>
+%%END_ROW%%
+</table>
+<p>
+%%END_TABLE%%
+
+<p>
+<a href="#top">Top</a>
+<a name="Aktuell"></a>
+<hr noshade size=1>
+<div>UB Basel - %%TODAY%%</div>
+</body>
+</html>

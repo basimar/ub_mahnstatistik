@@ -1,0 +1,16 @@
+Guten Morgen
+
+Alle aktiven Ausleihen von A125 wurden ausgewertet.
+
+Gezaehlt werden die Mahnnachrichten Ausleihe des heutigen Tages (alle Status, Print- und Email-Format).
+
+Siehe auch die aktualisierte Uebersicht unter http://aleph.unibas.ch/dirlist/u/local/statistik/mahn-statistik-A125.html#Aktuell
+
+Einen schoenen Tag wuenscht ALEPH
+
+
+Dies ist ein von Montag bis Freitag per Batchjob generiertes Mail.
+... /exlibris/aleph/u22_1/alephe/tab/joblist
+... /exlibris/aleph/u22_1/dsv51/scripts/mahnstatistik/mahnjob_alert.sh
+(c) Bernd Luchner, 2005
+
